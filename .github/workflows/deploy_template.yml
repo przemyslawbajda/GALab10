@@ -27,7 +27,7 @@ jobs:
         context: ./
         push: true
         tags: |
-          spg51/lab:ebs_frontend
+          przemyslawbajda/lab10
 
     - name: Generate deployment package
       run: zip -r deploy.zip . -x '*.git*'
